@@ -13,11 +13,11 @@ function HeroSection() {
         <div className="hero-container-inner">
           <div className="content text-left  flex flex-col gap-[30px]">
             <h1>
-              Hello World, <br></br>I'm<span> Robert Rodriguez </span><br></br>robgh4@yahoo.com{" "}
+              Hello World, <br></br>I'm<span> Ryan Rodriguez </span><br></br>robgh4@yahoo.com{" "}
             </h1>
 
             <p>
-            Creative web designer based in San Antonio, TX
+            Creative web designer based in Corpus Christi, TX
             </p>
             <div className="button-wrap">
               <a href="/robres.pdf" className="primary-button">Download Resume</a>
