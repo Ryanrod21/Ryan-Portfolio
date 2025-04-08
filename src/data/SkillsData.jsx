@@ -9,11 +9,11 @@ import SquareSpace from "../assets/squarespace.png";
 import Webflow from "../assets/webflow.svg";
 
 export const skillsData = [
-  // {
-  //   skill: "React",
-  //   skillLogo:
-  //     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
-  // },
+  {
+    skill: "React",
+    skillLogo:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+  },
   {
     skill: "HTML",
     skillLogo:
@@ -24,23 +24,23 @@ export const skillsData = [
     skillLogo:
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
   },
-  {
-    skill: "Figma",
-    skillLogo:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
-  },
-  {
-    skill:"Adobe Illustrator",
-    skillLogo:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/illustrator/illustrator-plain.svg"
-  },
-  {
-    skill:"Adobe Photoshop",
-    skillLogo:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg"
-  }
   // {
-  //   skill: "JavaScript",
-  //   skillLogo:
-  //     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+  //   skill: "Figma",
+  //   skillLogo:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
   // },
+  // {
+  //   skill:"Adobe Illustrator",
+  //   skillLogo:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/illustrator/illustrator-plain.svg"
+  // },
+  // {
+  //   skill:"Adobe Photoshop",
+  //   skillLogo:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg"
+  // }
+  {
+    skill: "JavaScript",
+    skillLogo:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+  },
   // {
   //   skill: "Python",
   //   skillLogo:
@@ -56,6 +56,10 @@ export const skillsData = [
   //   skillLogo:
   //     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
   // },
+  {
+    skill: "Hubspot",
+    skillLogo: Hubspot,
+  },
 ];
 
 export const skillsData2 = [
@@ -83,10 +87,6 @@ export const skillsData3 = [
   {
     skill: "Wordpress",
     skillLogo: Wordpress,
-  },
-  {
-    skill: "Hubspot",
-    skillLogo: Hubspot,
   },
   {
     skill: "Shopify",

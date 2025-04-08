@@ -13,11 +13,11 @@ function HeroSection() {
         <div className="hero-container-inner">
           <div className="content text-left  flex flex-col gap-[30px]">
             <h1>
-              Hello World, <br></br>I'm<span> Ryan Rodriguez </span><br></br>robgh4@yahoo.com{" "}
+              Hello World, <br></br>I'm<span> Ryan Rodriguez </span><br></br>officialryanrod@gmail.com{" "}
             </h1>
 
             <p>
-            Creative web designer based in Corpus Christi, TX
+            Creative web designer based in Robstown, TX
             </p>
             <div className="button-wrap">
               <a href="/robres.pdf" className="primary-button">Download Resume</a>
@@ -28,7 +28,7 @@ function HeroSection() {
               <span>Web Designer</span>
             </div>
             <div className="img-circle"></div>
-            <img src={RobertHero} />
+            <img />
           </div>
         </div>
       </div>

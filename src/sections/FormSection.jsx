@@ -20,11 +20,11 @@ function FormSection() {
     <>
       <div id="contact" className="contactForm">
         <h2>
-          Let's get in touch!   THIS IS A TEST hhhhhhhhh
+          Let's get in touch!  
         </h2>
         <p>Feel free to reach out to me via email or download my resume for more information.</p>
          <p>
-          Email: robgh4@yahoo.com
+          Email: officialryanrod@gmail.com
         </p>
         <a href="/robres.pdf" className="primary-button">Download Resume</a>
         <div

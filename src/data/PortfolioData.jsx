@@ -15,9 +15,9 @@ import DesktopMobile from "../assets/DesktopMobile.png"
 
 const portfolioData = [
   {
-    title: "E-commerce Music App",
+    title: "Flixx App",
     description:
-      "This E-commerce Music App is designed to be to your ultimate destination for music gear discovery and shopping all in one place. Whether you're a professional musician seeking the latest releases or new to the music world, this app offers a seamless experience tailored to your preferences.",
+      "This is an app that goes and displays details on your favorite moveis or tv shows. It gives out details on actors, budget cost, revenue, also who produce or direct them",
     image: Pres1,
     industry: "",
     imageBefore: "",
