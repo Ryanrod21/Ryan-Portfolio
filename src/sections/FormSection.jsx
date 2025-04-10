@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "motion/react";
 import HubspotForm from "../components/HubspotForm";
+import RyanResPic from '../assets/RyanResPic.png'
 import RobPortfolio from "../assets/robresume.jpg"
 
 function FormSection() {
@@ -24,14 +25,14 @@ function FormSection() {
         </h2>
         <p>Feel free to reach out to me via email or download my resume for more information.</p>
          <p>
-          Email: officialryanrod@gmail.com
+          Email: officialryanrod@gmail.com  
         </p>
-        <a href="/robres.pdf" className="primary-button">Download Resume</a>
+        <a href="/RyanRes.pdf" className="primary-button">Download Resume</a>
         <div
           className="contact-div"
           
         >
-          <img src={RobPortfolio} />
+          <img src={RyanResPic} />
         </div>
       </div>
     </>
