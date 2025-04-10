@@ -1,18 +1,9 @@
-import CVS from '../assets/CVSpage.png';
-import TrueAuto from '../assets/TrueAutoAfter.jpg';
-import TribusWarranty from '../assets/TribusWarranty.jpg';
-import BoltOn from '../assets/BoltOnTechnology.jpg';
-import PDQ from '../assets/PDQ.jpg';
-import SNU from '../assets/SNU.jpg';
-import KippNorcal from '../assets/KippNorcal.jpg';
-import CAQH from '../assets/CAQH.jpg';
-
-// Robert's Images
-import Pres1 from '../assets/Presentation1.png';
-import Pres2 from '../assets/Presentation2.png';
-import ConcertLanding from '../assets/ConcertLandingPage.png';
-import DesktopMobile from '../assets/DesktopMobile.png';
+//Ryans img
 import Flixx from '../assets/FlixxApp.jpg';
+import BBall from '../assets/BasketballWeb.png';
+import Calorie from '../assets/CalorieApp.png';
+import ShoeApp from '../assets/ShoeApp.jpg';
+import Porsche from '../assets/PorscheGT3.png';
 
 const portfolioData = [
   {
@@ -26,30 +17,37 @@ const portfolioData = [
   },
 
   {
+    title: 'Basketball Training page',
+    description: 'Basketball',
+    image: BBall,
+    industry: '',
+    imageBefore: '',
+    link: '',
+  },
+
+  {
     title: 'Calorie Tracking App',
     description: 'Track calories',
-    image: Pres2,
+    image: Calorie,
     industry: '',
     imageBefore: '',
     link: '',
   },
   {
-    title: '2024 Concert Landing Page',
-    description:
-      'The purpose of this concert website design is to serve as a centralized online platform where users can find information about upcoming concerts, purchase tickets, and engage with content related to live music events.',
-    image: ConcertLanding,
+    title: 'Running Attire',
+    description: '',
+    image: ShoeApp,
     industry: '',
     imageBefore: '',
-    link: 'https://www.figma.com/design/Gyynms4IEPCTSpPMvvZHKp/2024-Concert-Landing-Page?node-id=0-1&p=f&t=NATYhMyQaLaf6yCZ-0',
+    link: '',
   },
   {
-    title: 'E-commerce Web page & App',
-    description:
-      'The purpose of this e-commerce shopping website & app is to facilitate the online buying and selling of goods and services while also offering a convenient and secure platform.',
-    image: DesktopMobile,
+    title: 'Porsche GT3 Info Page',
+    description: '',
+    image: Porsche,
     industry: '',
     imageBefore: '',
-    link: 'https://www.figma.com/design/m2d7mo0bw55eSH7rGl50Y3/E-commerce-Web-%26-Mobile?node-id=0-1&p=f&t=wEIbeULDhiguBCHG-0',
+    link: '',
   },
 ];
 

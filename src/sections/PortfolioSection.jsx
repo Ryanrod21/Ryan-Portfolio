@@ -1,14 +1,14 @@
-import { useState } from "react";
-import { motion } from "motion/react";
+import { useState } from 'react';
+import { motion } from 'motion/react';
 
 function PortfolioSection({ portfolioItems }) {
   const [activeNav, setActiveNav] = useState(-1);
-  const [currentAtt, setCurrentAtt] = useState("all");
+  const [currentAtt, setCurrentAtt] = useState('all');
   const [openSelect, setOpenSelect] = useState(false);
 
   const resetNav = () => {
     setActiveNav(-1);
-    setCurrentAtt("all");
+    setCurrentAtt('all');
   };
 
   const handleFilter = (industry, index) => {
@@ -25,7 +25,7 @@ function PortfolioSection({ portfolioItems }) {
   };
 
   const filteredItems =
-    currentAtt === "all"
+    currentAtt === 'all'
       ? portfolioItems
       : portfolioItems.filter((port) => port.industry === currentAtt);
 
@@ -35,10 +35,7 @@ function PortfolioSection({ portfolioItems }) {
 
   return (
     <div id="portfolio" className="portfolioSection">
-      <h2 className="text-center">
-        Check out my latest projects
-      </h2>
-      
+      <h2 className="text-center">Check out my latest projects</h2>
 
       {/* Animated Navigation List */}
       {/* <motion.ul 
@@ -101,7 +98,7 @@ function PortfolioSection({ portfolioItems }) {
       </div> */}
 
       {/* Animated Portfolio Items */}
-      <motion.div 
+      <motion.div
         className="portfolioContainer"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -123,12 +120,14 @@ function PortfolioSection({ portfolioItems }) {
             <p>
               <em>{port.description}</em>
             </p>
-            <a href={port.link} className="primary-button" target="_blank">View Figma file</a>
+            <a href={port.link} className="primary-button" target="_blank">
+              View my webpage
+            </a>
           </motion.div>
         ))}
       </motion.div>
     </div>
   );
-} 
+}
 
 export default PortfolioSection;
