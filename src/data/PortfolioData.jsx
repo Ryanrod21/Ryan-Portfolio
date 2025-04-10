@@ -49,6 +49,7 @@ const portfolioData = [
     imageBefore: '',
     link: '',
   },
+  
 ];
 
 export default portfolioData;

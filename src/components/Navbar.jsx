@@ -24,7 +24,7 @@ function Navbar() {
     <>
       <div className="headerContainer">
         <div className="homeHeader">
-          <img src={logo} />
+          <img src='' />
           <ul className="desktop-nav">
             {renderedHeader}{" "}
             <li>

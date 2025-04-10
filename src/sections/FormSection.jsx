@@ -2,7 +2,6 @@ import { useState } from "react";
 import { motion } from "motion/react";
 import HubspotForm from "../components/HubspotForm";
 import RyanResPic from '../assets/RyanResPic.png'
-import RobPortfolio from "../assets/robresume.jpg"
 
 function FormSection() {
   const [submitted, setSubmitted] = useState(false);
