@@ -1,6 +1,8 @@
-import hiveimg from "../assets/hiveprofileimg.png/";
-import RobertHero from "../assets/robertHero.png"
+import hiveimg from '../assets/hiveprofileimg.png/';
+import RobertHero from '../assets/robertHero.png';
+import Rypic from '../assets/ryanpic.jpeg';
 
+import './section.css';
 
 function HeroSection() {
   return (
@@ -13,14 +15,15 @@ function HeroSection() {
         <div className="hero-container-inner">
           <div className="content text-left  flex flex-col gap-[30px]">
             <h1>
-              Hello World, <br></br>I'm<span> Ryan Rodriguez </span><br></br>officialryanrod@gmail.com{" "}
+              Hello World, <br></br>I'm<span> Ryan Rodriguez </span>
+              <br></br>officialryanrod@gmail.com{' '}
             </h1>
 
-            <p>
-            Creative web designer based in Robstown, TX
-            </p>
+            <p>Creative web designer based in Robstown, TX</p>
             <div className="button-wrap">
-              <a href="/robres.pdf" className="primary-button">Download Resume</a>
+              <a href="/RyanRes.pdf" className="primary-button">
+                Download Resume
+              </a>
             </div>
           </div>
           <div className="img flex items-center justify-center">
@@ -28,7 +31,7 @@ function HeroSection() {
               <span>Web Designer</span>
             </div>
             <div className="img-circle"></div>
-            <img />
+            <img src={Rypic} className="Rypic" />
           </div>
         </div>
       </div>
