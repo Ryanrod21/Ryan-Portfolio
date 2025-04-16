@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 html {
   scroll-behavior: smooth;
@@ -55,24 +55,24 @@ body {
 h1 {
   font-size: 50px;
   font-weight: 700;
-  font-family: "Poppins";
+  font-family: 'Poppins';
 }
 
 h2 {
   font-size: 40px;
   font-weight: 700;
-  font-family: "Poppins";
+  font-family: 'Poppins';
 }
 
 h3 {
   font-size: 30px;
   font-weight: 700;
-  font-family: "Poppins";
+  font-family: 'Poppins';
 }
 
 p,
 li {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-size: 24px;
 }
 
@@ -97,7 +97,7 @@ li {
 }
 
 .primary-button::before {
-  content: "";
+  content: '';
   position: absolute;
   inset: 0px;
   background: linear-gradient(to right, #3ec8e0, #526af4);
@@ -225,7 +225,6 @@ li {
 
 .hero-container .img {
   position: relative;
-  
 }
 
 .hero-container .img img {
@@ -243,7 +242,7 @@ li {
   box-shadow: 0px 0px 21px white;
 }
 
-@media(max-width:1000px) {
+@media (max-width: 1000px) {
   .img-circle {
     height: 300px;
     width: 300px;
@@ -270,7 +269,7 @@ li {
 }
 
 .hero-container .content span {
-  font-family: "Dancing Script";
+  font-family: 'Dancing Script';
 }
 
 .portfolioSection {
@@ -411,7 +410,7 @@ li {
   width: 100%;
   border-radius: 10px 10px 0 0;
   height: 310px;
-  background:white;
+  background: white;
   object-fit: cover;
 }
 
@@ -451,7 +450,7 @@ li {
 }
 
 .desktop-nav .nav-item::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 0;
   height: 4px;
@@ -508,7 +507,7 @@ li {
 
 .slider-container::before,
 .slider-container::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   width: 140px; /* Adjust for wider/narrower fade */
@@ -760,7 +759,7 @@ div:has(.skillLogo) {
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 30px;
+    font-size: 24px;
   }
 
   h2 {
@@ -851,7 +850,7 @@ div:has(.skillLogo) {
 }
 
 .landing-inner-container .cta-callout span {
-  font-family: "Dancing Script";
+  font-family: 'Dancing Script';
   font-size: 70px;
 }
 
@@ -1139,7 +1138,7 @@ div#hubspotForm {
   }
 
   .portfolio-navigation-mobile-container::after {
-    content: "▼";
+    content: '▼';
     font-size: 14px;
     color: white;
     position: absolute;

@@ -19,7 +19,7 @@ function HeroSection() {
               <br></br>officialryanrod@gmail.com{' '}
             </h1>
 
-            <p>Creative web designer based in Robstown, TX</p>
+            <p>Creative web developer based in Robstown, TX</p>
             <div className="button-wrap">
               <a href="/RyanRes.pdf" className="primary-button">
                 Download Resume
@@ -28,7 +28,7 @@ function HeroSection() {
           </div>
           <div className="img flex items-center justify-center">
             <div className="img-label">
-              <span>Web Designer</span>
+              <span>Web Developer</span>
             </div>
             <div className="img-circle"></div>
             <img src={Rypic} className="Rypic" />
