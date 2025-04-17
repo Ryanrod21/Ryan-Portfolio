@@ -1,5 +1,5 @@
-import Slider from "react-slick";
-import { skillsData } from "../data/SkillsData";
+import Slider from 'react-slick';
+import { skillsData } from '../data/SkillsData';
 
 export default function LogoSlider() {
   const renderedLogos = skillsData.map((logo, index) => {
@@ -19,7 +19,7 @@ export default function LogoSlider() {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 0,
-    cssEase: "linear",
+    cssEase: 'linear',
     pauseOnHover: true,
     responsive: [
       {
@@ -36,10 +36,14 @@ export default function LogoSlider() {
   return (
     <div className="slider-container" id="skills">
       <div className="slider-content">
-      <h2>My Experience</h2>
-      <p>I've been designing websites for a year focusing on creating intuitive user experiences and visually appealing interfaces. My approach blends clean design principles with a user-centered mindset, ensuring that every website I build not only looks great but also functions seamlessly across devices.
-        Here are some of my skills:
-      </p>
+        <h2>My Experience</h2>
+        <p>
+          I've been designing websites for a year focusing on creating intuitive
+          user experiences and visually appealing interfaces. My approach blends
+          clean design principles with a user-centered mindset, ensuring that
+          every website I build not only looks great but also functions
+          seamlessly across devices. Here are some of my skills:
+        </p>
       </div>
       <Slider {...settings}>{renderedLogos}</Slider>
     </div>
