@@ -7,6 +7,16 @@ import Porsche from '../assets/PorscheGT3.png';
 
 const portfolioData = [
   {
+    title: 'The GameHub',
+    description:
+      'This is a gaming website that looks like a dashboard. It has features like searching games, or looking under genres and getting the details, rating, plaforms, etc. You can also add friends and send messages to interact with each other. This website uses HTML, JS, CSS, React.js, Next.js, a API for the games, Firebase to store accounts. ',
+    image: The_GameHub,
+    industry: '',
+    imageBefore: '',
+    link: 'https://gamer-hub-beta.vercel.app/',
+  },
+
+  {
     title: 'Flixx App',
     description:
       'This is an app that goes and displays details on your favorite moveis or tv shows. It gives out details on actors, budget cost, revenue, also who produce or direct them',
@@ -35,24 +45,24 @@ const portfolioData = [
     imageBefore: '',
     link: 'https://calorie-tracker-beta-eight.vercel.app/',
   },
-  {
-    title: 'Running Attire',
-    description:
-      'Gear up with the latest in running apparel, from performance shoes to moisture-wicking clothes and essential accessories. Whether you are hitting the trail or the pavement, find everything you need to run strong and stay comfortable',
-    image: ShoeApp,
-    industry: '',
-    imageBefore: '',
-    link: 'https://shoe-project-sand.vercel.app/',
-  },
-  {
-    title: 'Porsche GT3 Info Page',
-    description:
-      'Discover the thrill of the Porsche 911 GT3—where track-bred performance meets iconic design. Explore specs, features, and the engineering excellence that makes the GT3 a true driving machine',
-    image: Porsche,
-    industry: '',
-    imageBefore: '',
-    link: 'https://car-2-rho.vercel.app/',
-  },
+  // {
+  //   title: 'Running Attire',
+  //   description:
+  //     'Gear up with the latest in running apparel, from performance shoes to moisture-wicking clothes and essential accessories. Whether you are hitting the trail or the pavement, find everything you need to run strong and stay comfortable',
+  //   image: ShoeApp,
+  //   industry: '',
+  //   imageBefore: '',
+  //   link: 'https://shoe-project-sand.vercel.app/',
+  // },
+  // {
+  //   title: 'Porsche GT3 Info Page',
+  //   description:
+  //     'Discover the thrill of the Porsche 911 GT3—where track-bred performance meets iconic design. Explore specs, features, and the engineering excellence that makes the GT3 a true driving machine',
+  //   image: Porsche,
+  //   industry: '',
+  //   imageBefore: '',
+  //   link: 'https://car-2-rho.vercel.app/',
+  // },
 ];
 
 export default portfolioData;
