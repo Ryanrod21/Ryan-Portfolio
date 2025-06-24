@@ -2,6 +2,7 @@
 import Flixx from '../assets/FlixxApp.jpg';
 import BBall from '../assets/BasketballWeb.png';
 import Calorie from '../assets/CalorieApp.png';
+import GameHub from '../assets/gamehub.jpg';
 import ShoeApp from '../assets/ShoeApp.jpg';
 import Porsche from '../assets/PorscheGT3.png';
 
@@ -10,7 +11,7 @@ const portfolioData = [
     title: 'The GameHub',
     description:
       'This is a gaming website that looks like a dashboard. It has features like searching games, or looking under genres and getting the details, rating, plaforms, etc. You can also add friends and send messages to interact with each other. This website uses HTML, JS, CSS, React.js, Next.js, a API for the games, Firebase to store accounts. ',
-    image: The_GameHub,
+    image: GameHub,
     industry: '',
     imageBefore: '',
     link: 'https://gamer-hub-beta.vercel.app/',
