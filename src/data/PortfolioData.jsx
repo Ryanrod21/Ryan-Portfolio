@@ -20,7 +20,7 @@ const portfolioData = [
   {
     title: 'The GameHub',
     description:
-      'This is a gaming website that looks like a dashboard. It has features like searching games, or looking under genres and getting the details, rating, plaforms, etc. You can also add friends and send messages to interact with each other. This website uses HTML, JS, CSS, React.js, Next.js, a API for the games, Firebase to store accounts. ',
+      'The Game Hub is a dynamic dashboard-style web application built with React, Next.js, CSS, Font Awesome, Firebase, and external APIs. It allows users to search for games across all eras and platforms, from retro classics to modern titles on console, PC, and mobile. Each game page includes rich details such as ratings, descriptions, screenshots, platforms, and creators. Users can sign in, add friends, and chat in real time, making it a social hub for gamers to connect and share. This project showcases real-time functionality, user authentication, and seamless API integration, all within a responsive and visually engaging UI',
     image: GameHub,
     industry: '',
     imageBefore: '',
