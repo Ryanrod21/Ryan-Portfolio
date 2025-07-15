@@ -5,8 +5,18 @@ import Calorie from '../assets/CalorieApp.png';
 import GameHub from '../assets/gamehub.jpg';
 import ShoeApp from '../assets/ShoeApp.jpg';
 import Porsche from '../assets/PorscheGT3.png';
+import store from '../assets/store.png';
 
 const portfolioData = [
+  {
+    title: 'Simple Supplies',
+    description:
+      'This project is a fully functional e-commerce store built using React, Next.js, CSS, Font Awesome, and an external API for dynamic product data. Users can browse products by category and subcategory, explore featured items based on the top three highest-rated products, and use a search bar to quickly find specific items. Each product can be quick-added to the cart or viewed in more detail on a dedicated product page that includes expanded descriptions and visuals. The shopping cart supports adding multiple quantities, removing items, and displays a real-time count of selected products. A checkout page summarizes the total cost and item count for a clear and intuitive user experience. This project highlights responsive design, interactive UI components, and strong front-end architecture with dynamic routing and API integration. ',
+    image: store,
+    industry: '',
+    imageBefore: '',
+    link: 'https://supplies-store.vercel.app/',
+  },
   {
     title: 'The GameHub',
     description:
