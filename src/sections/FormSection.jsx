@@ -1,7 +1,7 @@
-import { useState } from "react";
-import { motion } from "motion/react";
-import HubspotForm from "../components/HubspotForm";
-import RyanResPic from '../assets/RyanResPic.png'
+import { useState } from 'react';
+import { motion } from 'motion/react';
+import HubspotForm from '../components/HubspotForm';
+import RyanRodriguez_WebDeveloper_Resume from '../assets/RyanRodriguez_WebDeveloper_Resume.png';
 
 function FormSection() {
   const [submitted, setSubmitted] = useState(false);
@@ -19,19 +19,20 @@ function FormSection() {
   return (
     <>
       <div id="contact" className="contactForm">
-        <h2>
-          Let's get in touch!  
-        </h2>
-        <p>Feel free to reach out to me via email or download my resume for more information.</p>
-         <p>
-          Email: officialryanrod@gmail.com  
+        <h2>Let's get in touch!</h2>
+        <p>
+          Feel free to reach out to me via email or download my resume for more
+          information.
         </p>
-        <a href="/RyanRes.pdf" className="primary-button">Download Resume</a>
-        <div
-          className="contact-div"
-          
+        <p>Email: officialryanrod@gmail.com</p>
+        <a
+          href="/RyanRodriguez_WebDeveloper_Resume.pdf"
+          className="primary-button"
         >
-          <img src={RyanResPic} />
+          Download Resume
+        </a>
+        <div className="contact-div">
+          <img src={RyanRodriguez_WebDeveloper_Resume} />
         </div>
       </div>
     </>

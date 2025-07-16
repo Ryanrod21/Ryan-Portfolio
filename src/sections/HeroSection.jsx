@@ -21,7 +21,10 @@ function HeroSection() {
 
             <p>Creative web developer based in Robstown, TX</p>
             <div className="button-wrap">
-              <a href="/RyanRes.pdf" className="primary-button">
+              <a
+                href="/RyanRodriguez_WebDeveloper_Resume.pdf"
+                className="primary-button"
+              >
                 Download Resume
               </a>
             </div>
