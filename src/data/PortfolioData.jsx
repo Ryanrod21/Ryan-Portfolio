@@ -30,7 +30,7 @@ const portfolioData = [
   {
     title: 'Flixx App',
     description:
-      'This is an app that goes and displays details on your favorite moveis or tv shows. It gives out details on actors, budget cost, revenue, also who produce or direct them',
+      'This movie app provides users with access to a wide range of films—from the latest blockbusters to classic titles. Each movie page includes a detailed summary, cast and crew information (including directors, actors, and producers), and user reviews. Built using HTML, CSS, JavaScript, and external APIs, the app features a clean, responsive design enhanced with Font Awesome icons and Swiper.js for smooth, touch-friendly carousels. This project demonstrates my ability to integrate external data sources, organize complex content, and create an engaging user experience.',
     image: Flixx,
     industry: '',
     imageBefore: '',
@@ -40,7 +40,7 @@ const portfolioData = [
   {
     title: 'Basketball Training page',
     description:
-      'Elevate your game with our basketball training platform—designed for players of all levels. Sign up for expert coaching, skill-building drills, and personalized programs to take your performance to the next level',
+      'Elevate your game with our basketball training platform—designed for players of all levels. Sign up for expert coaching, skill-building drills, and personalized programs to take your performance to the next level. Built using HuSPort, HTML, CSS to make this app happen',
     image: BBall,
     industry: '',
     imageBefore: '',
