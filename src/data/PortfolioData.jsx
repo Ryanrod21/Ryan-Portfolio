@@ -50,7 +50,7 @@ const portfolioData = [
   {
     title: 'Calorie Tracking App',
     description:
-      'Stay on top of your nutrition with our easy-to-use calorie tracking app. Set goals, log meals, and track your progress to build healthier habits every day',
+      'Stay on top of your nutrition with our easy-to-use calorie tracking app. Set goals, log meals, and track your progress to build healthier habits every day. Used HTML, CSS, HTML to buid this app.',
     image: Calorie,
     industry: '',
     imageBefore: '',
