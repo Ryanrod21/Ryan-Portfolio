@@ -6,8 +6,18 @@ import GameHub from '../assets/gamehub.jpg';
 import ShoeApp from '../assets/ShoeApp.jpg';
 import Porsche from '../assets/PorscheGT3.png';
 import store from '../assets/store.png';
+import travel from '../assets/travel.png';
 
 const portfolioData = [
+  {
+    title: 'FutureTravel',
+    description:
+      'Future Travel is an interactive travel website designed to help users explore and plan their next adventures with ease. Users can enter their current location and search for destinations or themes like "beaches," leveraging the power of the OpenAI API to generate personalized, relevant travel suggestions based on their input. The platform showcases beautiful destination images powered by the Unsplash API, allowing users to visually explore options. Users can bookmark favorite destinations for easy access later or proceed to book trips directly through the site. Future Travel also lets users select their preferred departure and return dates for flights, making trip planning seamless. After visiting a destination, users have the ability to rate their experience, contributing to a community-driven feedback system. The app is built using modern technologies including React, Next.js, and Tailwind CSS for a responsive and engaging UI, Firebase for backend and data management, and various APIs like OpenAI and Unsplash to deliver a fully functional and dynamic travel experience ',
+    image: travel,
+    industry: '',
+    imageBefore: '',
+    link: 'https://travel-app-azure-kappa.vercel.app/',
+  },
   {
     title: 'Simple Supplies',
     description:
