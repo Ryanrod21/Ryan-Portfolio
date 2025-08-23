@@ -109,18 +109,45 @@ function PortfolioSection({ portfolioItems }) {
           <motion.div
             data-Att={port.industry}
             key={index}
-            className="portfolio-item text-white flex flex-col items-center"
+            className="portfolio-item text-white flex flex-col items-center p-4"
             initial={{ opacity: 0, x: -50, scale: 0.8 }}
             whileInView={{ opacity: 1, x: 0, scale: 1 }}
             transition={{ duration: 0.5, delay: index * 0.2 }}
             viewport={{ once: true }}
           >
-            <img src={port.image} alt={port.title} />
-            <h3>{port.title}</h3>
-            <p>
+            <img
+              src={port.image}
+              alt={port.title}
+              className="mb-4 rounded-md"
+            />
+
+            {/* Title */}
+            <h3 className="text-xl font-bold mb-2">{port.title}</h3>
+
+            {/* Description */}
+            <p className="mb-2 whitespace-pre-line text-center">
               <em>{port.description}</em>
             </p>
-            <a href={port.link} className="primary-button" target="_blank">
+
+            {/* Featured Section */}
+            {port.featured && port.featured.length > 0 && (
+              <div className="mt-2 text-left w-full max-w-md ">
+                <h4 className="font-semibold mb-1">Featured:</h4>
+                <ul className="list-disc list-inside ml-4">
+                  {port.featured.map((item, i) => (
+                    <li key={i}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {/* Link */}
+            <a
+              href={port.link}
+              className="primary-button mt-4 px-4 py-2 bg-blue-500 rounded text-white hover:bg-blue-600 transition"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               View my webpage
             </a>
           </motion.div>

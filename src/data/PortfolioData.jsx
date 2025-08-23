@@ -11,8 +11,18 @@ import travel from '../assets/travel.png';
 const portfolioData = [
   {
     title: 'FutureTravel',
-    description:
-      'Future Travel is an interactive travel website designed to help users explore and plan their next adventures with ease. Users can enter their current location and search for destinations or themes like "beaches," leveraging the power of the OpenAI API to generate personalized, relevant travel suggestions based on their input. The platform showcases beautiful destination images powered by the Unsplash API, allowing users to visually explore options. Users can bookmark favorite destinations for easy access later or proceed to book trips directly through the site. Future Travel also lets users select their preferred departure and return dates for flights, making trip planning seamless. After visiting a destination, users have the ability to rate their experience, contributing to a community-driven feedback system. The app is built using modern technologies including React, Next.js, and Tailwind CSS for a responsive and engaging UI, Firebase for backend and data management, and various APIs like OpenAI and Unsplash to deliver a fully functional and dynamic travel experience ',
+    description: `Future Travel - Interactive Travel Planning App
+Technologies: React, JavaScript, Next.js, Tailwind CSS, Firebase, OpenAI API, Unsplash API
+
+Overview:
+Plan trips effortlessly with AI-powered personalized recommendations and high-quality images from Unsplash.`,
+    featured: [
+      'AI-powered travel recommendations',
+      'Destination browsing with Unsplash images',
+      'Bookmark & rate favorite destinations',
+      'Flight date selection & booking integration',
+      'Responsive UI with Tailwind CSS',
+    ],
     image: travel,
     industry: '',
     imageBefore: '',
@@ -20,8 +30,18 @@ const portfolioData = [
   },
   {
     title: 'Simple Supplies',
-    description:
-      'This project is a fully functional e-commerce store built using React, Next.js, CSS, Font Awesome, and an external API for dynamic product data. Users can browse products by category and subcategory, explore featured items based on the top three highest-rated products, and use a search bar to quickly find specific items. Each product can be quick-added to the cart or viewed in more detail on a dedicated product page that includes expanded descriptions and visuals. The shopping cart supports adding multiple quantities, removing items, and displays a real-time count of selected products. A checkout page summarizes the total cost and item count for a clear and intuitive user experience. This project highlights responsive design, interactive UI components, and strong front-end architecture with dynamic routing and API integration. ',
+    description: `Simple Supplies - E-commerce Store
+Technologies: React, JavaScript, Next.js, CSS, Font Awesome, External API
+
+Overview:
+Browse and purchase products with featured top-rated items, dynamic search, and a functional shopping cart.`,
+    featured: [
+      'Category & subcategory browsing',
+      'Top-rated featured items',
+      'Quick-add to cart & product pages',
+      'Real-time cart count & checkout summary',
+      'Responsive design & API integration',
+    ],
     image: store,
     industry: '',
     imageBefore: '',
@@ -29,8 +49,18 @@ const portfolioData = [
   },
   {
     title: 'The GameHub',
-    description:
-      'The Game Hub is a dynamic dashboard-style web application built with React, Next.js, CSS, Font Awesome, Firebase, and external APIs. It allows users to search for games across all eras and platforms, from retro classics to modern titles on console, PC, and mobile. Each game page includes rich details such as ratings, descriptions, screenshots, platforms, and creators. Users can sign in, add friends, and chat in real time, making it a social hub for gamers to connect and share. This project showcases real-time functionality, user authentication, and seamless API integration, all within a responsive and visually engaging UI',
+    description: `The GameHub - Dynamic Gaming Dashboard
+Technologies: React, JavaScript, Next.js, CSS, Firebase, External APIs
+
+Overview:
+A dashboard-style web app to search games, see ratings, and connect with friends in real time, featuring user authentication and API integration.`,
+    featured: [
+      'Game search across platforms',
+      'Detailed pages: ratings, descriptions, screenshots',
+      'User authentication & real-time chat',
+      'Responsive dashboard UI',
+      'API integration for dynamic content',
+    ],
     image: GameHub,
     industry: '',
     imageBefore: '',
@@ -39,8 +69,18 @@ const portfolioData = [
 
   {
     title: 'Flixx App',
-    description:
-      'This movie app provides users with access to a wide range of films—from the latest blockbusters to classic titles. Each movie page includes a detailed summary, cast and crew information (including directors, actors, and producers), and user reviews. Built using HTML, CSS, JavaScript, and external APIs, the app features a clean, responsive design enhanced with Font Awesome icons and Swiper.js for smooth, touch-friendly carousels. This project demonstrates my ability to integrate external data sources, organize complex content, and create an engaging user experience.',
+    description: `Flixx App - Movie Exploration Platform
+Technologies: HTML, CSS, JavaScript, Font Awesome, Swiper.js, External APIs
+
+Overview:
+Browse movies with detailed cast, crew, reviews, and smooth touch-friendly carousels.`,
+    featured: [
+      'Latest & classic films',
+      'Detailed pages with cast, crew, and reviews',
+      'Responsive UI with touch-friendly carousels',
+      'API integration for dynamic content',
+      'Enhanced UI with Font Awesome icons',
+    ],
     image: Flixx,
     industry: '',
     imageBefore: '',
@@ -48,9 +88,19 @@ const portfolioData = [
   },
 
   {
-    title: 'Basketball Training page',
-    description:
-      'Elevate your game with our basketball training platform—designed for players of all levels. Sign up for expert coaching, skill-building drills, and personalized programs to take your performance to the next level. Built using HuSPort, HTML, CSS to make this app happen',
+    title: 'Basketball Training Page',
+    description: `Basketball Training Page - Skill Development Platform
+Technologies: Hub Spot, HTML, CSS, JavaScript
+
+Overview:
+Sign up for expert coaching, skill-building drills, and personalized programs to improve performance.`,
+    featured: [
+      'Expert coaching & drills',
+      'Personalized training programs',
+      'Responsive design with HTML & CSS',
+      'Interactive features with Hub Spot',
+      'Focus on performance improvement',
+    ],
     image: BBall,
     industry: '',
     imageBefore: '',
@@ -59,8 +109,18 @@ const portfolioData = [
 
   {
     title: 'Calorie Tracking App',
-    description:
-      'Stay on top of your nutrition with our easy-to-use calorie tracking app. Set goals, log meals, and track your progress to build healthier habits every day. Used HTML, CSS, HTML to buid this app.',
+    description: `Calorie Tracking App - Nutrition Monitoring Tool
+Technologies: HTML, CSS, JavaScript
+
+Overview:
+Track your nutrition and stay on top of your goals with this easy-to-use calorie tracker. Users can set goals, log meals, and monitor progress daily. This app demonstrates clean, responsive design and functional tracking features for healthier habits.`,
+    featured: [
+      'Set personalized nutrition & calorie goals',
+      'Log meals & track progress',
+      'Responsive design with HTML & CSS',
+      'Easy-to-use interface for healthy habits',
+      'Focus on daily tracking & goals',
+    ],
     image: Calorie,
     industry: '',
     imageBefore: '',
