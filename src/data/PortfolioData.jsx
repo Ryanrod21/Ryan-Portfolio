@@ -49,11 +49,11 @@ Browse and purchase products with featured top-rated items, dynamic search, and 
   },
   {
     title: 'The GameHub',
-    description: `The GameHub - Dynamic Gaming Dashboard
-Technologies: React, JavaScript, Next.js, CSS, Firebase, External APIs
+    description: `The GameHub - Gaming Dashboard
+Technologies: JavaScript, React, Next.js, Firebase, APIs
 
 Overview:
-A dashboard-style web app to search games, see ratings, and connect with friends in real time, featuring user authentication and API integration.`,
+Search games, view details, and connect with friends in real time using a responsive dashboard with API integration.`,
     featured: [
       'Game search across platforms',
       'Detailed pages: ratings, descriptions, screenshots',

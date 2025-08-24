@@ -109,16 +109,17 @@ function PortfolioSection({ portfolioItems }) {
           <motion.div
             data-Att={port.industry}
             key={index}
-            className="portfolio-item text-white flex flex-col items-center p-4"
+            className="portfolio-item text-white flex flex-col items-center p-4 bg-gray-900 rounded-md transform transition duration-300 hover:scale-105 hover:shadow-xl"
             initial={{ opacity: 0, x: -50, scale: 0.8 }}
             whileInView={{ opacity: 1, x: 0, scale: 1 }}
             transition={{ duration: 0.5, delay: index * 0.2 }}
             viewport={{ once: true }}
           >
+            {/* Image with hover zoom */}
             <img
               src={port.image}
-              alt={port.title}
-              className="mb-4 rounded-md"
+              alt={`${port.title} project screenshot`}
+              className="mb-4 rounded-md "
             />
 
             {/* Title */}
@@ -131,7 +132,7 @@ function PortfolioSection({ portfolioItems }) {
 
             {/* Featured Section */}
             {port.featured && port.featured.length > 0 && (
-              <div className="mt-2 text-left w-full max-w-md ">
+              <div className="mt-2 text-left w-full max-w-md">
                 <h4 className="font-semibold mb-1">Featured:</h4>
                 <ul className="list-disc list-inside ml-4">
                   {port.featured.map((item, i) => (
