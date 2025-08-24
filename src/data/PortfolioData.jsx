@@ -27,6 +27,7 @@ Plan trips effortlessly with AI-powered personalized recommendations and high-qu
     industry: '',
     imageBefore: '',
     link: 'https://travel-app-azure-kappa.vercel.app/',
+    gitLink: 'https://github.com/Ryanrod21/travel-app.git',
   },
   {
     title: 'Simple Supplies',
@@ -46,6 +47,7 @@ Browse and purchase products with featured top-rated items, dynamic search, and 
     industry: '',
     imageBefore: '',
     link: 'https://supplies-store.vercel.app/',
+    gitLink: 'https://github.com/Ryanrod21/nextStore.git',
   },
   {
     title: 'The GameHub',
@@ -65,6 +67,7 @@ Search games, view details, and connect with friends in real time using a respon
     industry: '',
     imageBefore: '',
     link: 'https://gamer-hub-beta.vercel.app/',
+    gitLink: 'https://github.com/Ryanrod21/GamerHub.git',
   },
 
   {
@@ -85,6 +88,7 @@ Browse movies with detailed cast, crew, reviews, and smooth touch-friendly carou
     industry: '',
     imageBefore: '',
     link: 'https://movie-app-six-kohl-38.vercel.app/',
+    gitLink: 'https://github.com/Ryanrod21/movie-app.git',
   },
 
   {
@@ -125,6 +129,7 @@ Track your nutrition and stay on top of your goals with this easy-to-use calorie
     industry: '',
     imageBefore: '',
     link: 'https://calorie-tracker-beta-eight.vercel.app/',
+    gitLink: 'https://github.com/Ryanrod21/Calorie-Tracker',
   },
   // {
   //   title: 'Running Attire',
