@@ -144,14 +144,16 @@ function PortfolioSection({ portfolioItems }) {
 
             {/* Link */}
             <div className="flex space-x-3 mt-4">
-              <a
-                href={port.link}
-                className="primary-button px-4 py-2 bg-blue-500 rounded text-white hover:bg-blue-600 transition"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View my webpage
-              </a>
+              {port.link && (
+                <a
+                  href={port.link}
+                  className="primary-button px-4 py-2 bg-blue-500 rounded text-white hover:bg-blue-600 transition"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View my webpage
+                </a>
+              )}
 
               {port.gitLink && (
                 <a
