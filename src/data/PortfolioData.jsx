@@ -28,7 +28,7 @@ I built ScrubbedIn using Next.js for both frontend and backend API routes, Tailw
     image: study,
     industry: '',
     imageBefore: '',
-    link: 'https://study-app-ai.vercel.app/auth/register',
+    link: 'https://study-app-ai.vercel.app/landing',
     // gitLink: 'https://github.com/Ryanrod21/travel-app.git',
   },
 
