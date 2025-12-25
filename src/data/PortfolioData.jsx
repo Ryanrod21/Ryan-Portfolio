@@ -133,25 +133,25 @@ Browse movies with detailed cast, crew, reviews, and smooth touch-friendly carou
     gitLink: 'https://github.com/Ryanrod21/movie-app.git',
   },
 
-  {
-    title: 'Basketball Training Page',
-    description: `Basketball Training Page - Skill Development Platform
-Technologies: Hub Spot, HTML, CSS, JavaScript
+  //   {
+  //     title: 'Basketball Training Page',
+  //     description: `Basketball Training Page - Skill Development Platform
+  // Technologies: Hub Spot, HTML, CSS, JavaScript
 
-Overview:
-Sign up for expert coaching, skill-building drills, and personalized programs to improve performance.`,
-    featured: [
-      'Expert coaching & drills',
-      'Personalized training programs',
-      'Responsive design with HTML & CSS',
-      'Interactive features with Hub Spot',
-      'Focus on performance improvement',
-    ],
-    image: BBall,
-    industry: '',
-    imageBefore: '',
-    link: 'https://none-49164491.hubspotpagebuilder.com/basketball-test',
-  },
+  // Overview:
+  // Sign up for expert coaching, skill-building drills, and personalized programs to improve performance.`,
+  //     featured: [
+  //       'Expert coaching & drills',
+  //       'Personalized training programs',
+  //       'Responsive design with HTML & CSS',
+  //       'Interactive features with Hub Spot',
+  //       'Focus on performance improvement',
+  //     ],
+  //     image: BBall,
+  //     industry: '',
+  //     imageBefore: '',
+  //     link: 'https://none-49164491.hubspotpagebuilder.com/basketball-test',
+  //   },
 
   {
     title: 'Calorie Tracking App',
