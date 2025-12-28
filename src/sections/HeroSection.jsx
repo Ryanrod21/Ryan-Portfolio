@@ -16,13 +16,13 @@ function HeroSection() {
           <div className="content text-left  flex flex-col gap-[30px]">
             <h1>
               Hello World, <br></br>I'm<span> Ryan Rodriguez </span>
-              <br></br>officialryanrod@gmail.com{' '}
+              <br></br> <h1 className="email">officialryanrod@gmail.com </h1>
             </h1>
 
             <p>Creative web developer based in Robstown, TX</p>
             <div className="button-wrap">
               <a
-                href="Ryan_Rodriguez_Frontend_Developer_Resume.pdf"
+                href="Ryan Rodriguez Web Developer Resume.pdf"
                 className="primary-button"
               >
                 Download Resume

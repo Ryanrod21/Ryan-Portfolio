@@ -1168,3 +1168,7 @@ div#hubspotForm {
     display: none;
   }
 }
+
+.email {
+  letter-spacing: 0.6px;
+}

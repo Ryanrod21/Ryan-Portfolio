@@ -9,7 +9,7 @@ const headerMenu = [
   },
   {
     text: 'Download Resume',
-    link: 'Ryan_Rodriguez_Frontend_Developer_Resume.pdf',
+    link: 'Ryan Rodriguez Web Developer Resume.pdf',
   },
 ];
 
