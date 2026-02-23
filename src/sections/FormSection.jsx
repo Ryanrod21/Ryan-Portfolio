@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
 import HubspotForm from '../components/HubspotForm';
-import Resume from '../assets/Ryan_Rodriguez_Web_Developer_Resume.png';
+import Resume from '../assets/Ryan Resume.png';
 
 function FormSection() {
   const [submitted, setSubmitted] = useState(false);
@@ -26,13 +26,13 @@ function FormSection() {
         </p>
         <p className="email">Email: officialryanrod@gmail.com</p>
         <a
-          href="Ryan Rodriguez Web Developer Resume.pdf"
+          href="Ryan Rodriguez Frontend Developer Resume.pdf"
           className="primary-button"
         >
           Download Resume
         </a>
         <div className="contact-div">
-          <img src={Resume} />
+          <img src={Resume} alt="Ryan Rodriguez Resume" />
         </div>
       </div>
     </>

@@ -9,8 +9,61 @@ import store from '../assets/store.png';
 import travel from '../assets/travel.png';
 import study from '../assets/studyapp.png';
 import budget from '../assets/budget.png';
+import auto from '../assets/auto.jpg';
+import dsst from '../assets/dsst.png';
+import tribus from '../assets/tribus.jpg';
 
 const portfolioData = [
+  {
+    title: 'Interactive Scroll Animations Report Page',
+    description: `Developed a visually engaging report page within the HubSpot CMS, leveraging custom modules, JavaScript, and CSS to implement interactive scroll-based animations. Utilized animation libraries and dynamic content loading to create smooth transitions and an engaging user experience, while ensuring content editors could easily manage and update sections directly in HubSpot.`,
+    // featured: [
+    //   'AI-powered travel recommendations',
+    //   'Destination browsing with Unsplash images',
+    //   'Bookmark & rate favorite destinations',
+    //   'Flight date selection & booking integration',
+    //   'Responsive UI with Tailwind CSS',
+    // ],
+    image: dsst,
+    industry: '',
+    imageBefore: '',
+    link: 'https://www.dsstpublicschools.org/2025-impact-report',
+    // gitLink: 'https://github.com/Ryanrod21/travel-app.git',
+  },
+
+  {
+    title: 'True Auto Protection',
+    description: `Revamped the website's look and feel within the HubSpot CMS to align with the brand's identity and improve customer acquisition. Built flexible, reusable custom modules and optimized performance, accessibility, and UX, resulting in increased user engagement and higher conversion rates. Collaborated with the marketing team to implement SEO best practices and ensure seamless integration with HubSpot's CRM for lead capture and nurturing.`,
+    // featured: [
+    //   'AI-powered travel recommendations',
+    //   'Destination browsing with Unsplash images',
+    //   'Bookmark & rate favorite destinations',
+    //   'Flight date selection & booking integration',
+    //   'Responsive UI with Tailwind CSS',
+    // ],
+    image: auto,
+    industry: '',
+    imageBefore: '',
+    link: 'https://www.trueautoprotection.com/',
+    // gitLink: 'https://github.com/Ryanrod21/travel-app.git',
+  },
+
+  {
+    title: 'Tribus Warranty',
+    description: `Transformed an outdated website into a modern, user-friendly platform built on the HubSpot CMS, designed to help homeowners easily navigate warranty coverage details, compare plans, and request services with confidence. Developed custom CMS modules using HubL, JavaScript, and CSS to support flexible layouts and interactive components, while optimizing performance, accessibility, and responsiveness across devices. Implemented enhanced UX patterns, subtle animations, and streamlined form integrations tied directly into HubSpot CRM and workflows, resulting in higher customer engagement, improved satisfaction, and a more scalable content management experience for internal teams.`,
+    //   'AI-powered travel recommendations',
+    //   'Destination browsing with Unsplash images',
+    //   'Bookmark & rate favorite destinations',
+    //   'Flight date selection & booking integration',
+    //   'Responsive UI with Tailwind CSS',
+    // ],
+    image: tribus,
+    industry: '',
+    imageBefore: '',
+    link: 'https://tribushomewarranty.com/',
+    // gitLink: 'https://github.com/Ryanrod21/travel-app.git',
+  },
+
   {
     title: 'ScrubbedIn AI Powered Learning App',
     description: `ScrubbedIn is an AI-driven learning platform designed specifically for nursing and medical students. Nursing education often demands deep understanding and application-based knowledge, not just memorization — and ScrubbedIn helps bridge that gap.
