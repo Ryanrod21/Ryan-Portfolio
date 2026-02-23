@@ -10,7 +10,7 @@ import travel from '../assets/travel.png';
 import study from '../assets/studyapp.png';
 import budget from '../assets/budget.png';
 import auto from '../assets/auto.jpg';
-import dsst from '../assets/dsst.png';
+import dsst from '../assets/DSST.png';
 import tribus from '../assets/tribus.jpg';
 
 const portfolioData = [
