@@ -12,6 +12,7 @@
 		"prepare-embeddings": "node backend/scripts/prepare-embedding.js"
 	},
 	"dependencies": {
+		"@openai/chatkit-react": "^1.5.0",
 		"@supabase/supabase-js": "^2.98.0",
 		"@tailwindcss/vite": "^4.0.8",
 		"cors": "^2.8.6",
