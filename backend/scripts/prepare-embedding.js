@@ -1,13 +1,12 @@
 import dotenv from "dotenv";
-import { OpenAi } from "openai";
+import { OpenAI } from "openai";
 import { createClient } from "@supabase/supabase-js";
-import Resume from "../../public/Ryan Rodriguez Frontend Developer Resume.pdf";
-import { skillsData, skillsData2 } from "../../src/data/SkillsData";
-import portfolioData from "../../src/data/PortfolioData";
+import { skillsData, skillsData2 } from "../data/SkillsData.js";
+import { portfolioData } from "../data/PortfolioData.js";
 
 dotenv.config();
 
-const openai = new OpenAi({
+const openai = new OpenAI({
 	apiKey: process.env.OPENAI_API_KEY,
 });
 
