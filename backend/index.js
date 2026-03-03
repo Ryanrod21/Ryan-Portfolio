@@ -47,3 +47,55 @@ async function findRelevantContext(query, limit = 5) {
 		return [];
 	}
 }
+
+app.post("/api/chat", async (req, res) => {
+	try {
+		const { messages } = req.body;
+
+		if (!messages || !Array.isArray(messages)) {
+			return res.status(400).json({ error: "Messages are required" });
+		}
+
+		const lastMessage = messages.filter((msg) => msg.role === "user").pop();
+
+		let contextPrompt = "";
+
+		if (lastMessage) {
+			const relevantContext = await findRelevantContext(lastMessage.content);
+
+			if (relevantContext.length > 0) {
+				contextPrompt = `\n\nRelevant information:\n${relevantContext.join("\n")}`;
+			}
+		}
+
+		const systemMessage = {
+			role: "system",
+			content: `You are a helpful assistant representing Ryan Rodriguez, a Frontend Developer. Answer questions about Ryan's skills, projects, and experience using the provided context. Be conversational and professional.${contextPrompt}`,
+		};
+
+		const completion = await openai.chat.completions.create({
+			model: "gpt-4o-mini",
+			messages: [systemMessage, ...messages],
+			temperature: 0.7,
+			max_tokens: 500,
+		});
+
+		res.json({
+			response: completion.choices[0].message.content,
+			usage: completion.usage,
+		});
+	} catch (error) {
+		console.error("Error handling chat request:", error);
+		res
+			.status(500)
+			.json({ error: "Internal server error", details: error.message });
+	}
+});
+
+app.get("/api/health", (req, res) => {
+	res.json({ status: "ok" });
+});
+
+app.listen(port, () => {
+	console.log(`Server running on port ${port}`);
+});

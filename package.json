@@ -8,7 +8,7 @@
 		"build": "vite build",
 		"lint": "eslint .",
 		"preview": "vite preview",
-		"server": "nodemon backend/server.js",
+		"server": "nodemon backend/index.js",
 		"prepare-embeddings": "node backend/scripts/prepare-embedding.js"
 	},
 	"dependencies": {

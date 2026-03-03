@@ -32,8 +32,7 @@ I built the frontend with React and implemented a custom backend featuring a use
 	},
 	{
 		title: "FutureTravel",
-		description: `Future Travel - Interactive Travel Planning App
-Technologies: React, JavaScript, Next.js, Tailwind CSS, Firebase, OpenAI API, Unsplash API
+		description: `Future Travel - Interactive Travel Planning App to help users plan their next trip. Developed using React, JavaScript, Next.js, Tailwind CSS, Firebase, OpenAI API, and Unsplash API.
 
 Overview:
 Plan trips effortlessly with AI-powered personalized recommendations and high-quality images from Unsplash.`,
