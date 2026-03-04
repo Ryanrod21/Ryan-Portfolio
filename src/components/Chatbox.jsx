@@ -80,7 +80,7 @@ export default function Chatbox() {
 
 			{/* Chat Window */}
 			{isOpen && (
-				<div className="fixed bottom-24 right-6 z-50 w-[90vw] max-w-sm sm:w-96 h-[600px] bg-white rounded-xl shadow-2xl flex flex-col overflow-hidden">
+				<div className="fixed bottom-24 right-6 z-50 w-[90vw] max-w-sm sm:w-96 h-[400px] bg-white rounded-xl shadow-2xl flex flex-col overflow-hidden">
 					{/* Header */}
 					<div className="px-4 py-3 border-b font-semibold">Ask Ryan 👋</div>
 
