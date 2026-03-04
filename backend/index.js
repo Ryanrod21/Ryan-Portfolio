@@ -18,7 +18,11 @@ const supabase = createClient(
 	process.env.SUPABASE_SERVICE_ROLE_KEY,
 );
 
-app.use(cors());
+app.use(
+	cors({
+		origin: ["https://portflolio-backend.vercel.app/", "http://localhost:5173"],
+	}),
+);
 app.use(express.json());
 
 async function findRelevantContext(query, limit = 5) {
