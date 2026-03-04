@@ -7,7 +7,7 @@ import { createClient } from "@supabase/supabase-js";
 dotenv.config();
 
 const app = express();
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 5000;
 
 const openai = new OpenAI({
 	apiKey: process.env.OPENAI_API_KEY,

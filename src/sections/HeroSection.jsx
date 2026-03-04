@@ -1,5 +1,5 @@
-import hiveimg from "../assets/hiveprofileimg.png/";
 import Rypic from "../assets/ryan-port-pic.png";
+import Chatbox from "../components/Chatbox";
 
 import "./section.css";
 
@@ -15,7 +15,7 @@ function HeroSection() {
 					<div className="content text-left  flex flex-col gap-[30px]">
 						<h1>
 							Hello World, <br></br>I'm<span> Ryan Rodriguez </span>
-							<br></br> <h1 className="email">officialryanrod@gmail.com </h1>
+							<br></br> <p className="email">officialryanrod@gmail.com </p>
 						</h1>
 
 						<p>Creative web developer based in Robstown, TX</p>
@@ -33,7 +33,7 @@ function HeroSection() {
 							<span>Web Developer</span>
 						</div>
 						<div className="img-circle"></div>
-						<img src={Rypic} className="Rypic" />
+						<img src={Rypic || null} alt="Ryan Picture" className="Rypic" />
 					</div>
 				</div>
 			</div>
