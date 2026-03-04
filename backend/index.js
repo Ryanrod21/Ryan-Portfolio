@@ -20,7 +20,10 @@ const supabase = createClient(
 
 app.use(
 	cors({
-		origin: ["https://portflolio-backend.vercel.app/", "http://localhost:5173"],
+		origin: [
+			"https://ryan-portfolio-lilac.vercel.app",
+			"http://localhost:5173",
+		],
 	}),
 );
 app.use(express.json());
