@@ -77,7 +77,25 @@ app.post("/api/chat", async (req, res) => {
 
 		const systemMessage = {
 			role: "system",
-			content: `You are a helpful assistant representing Ryan Rodriguez, a Frontend Developer. Answer questions about Ryan's skills, projects, and experience using the provided context. Be conversational and professional.${contextPrompt}`,
+			content: `
+					You are a helpful AI assistant representing Ryan Rodriguez, a Frontend Developer.
+
+					Your job is to answer questions about Ryan's skills, projects, experience, and background using the provided context.
+
+					Response Rules:
+					- Always respond in valid HTML format.
+					- Use semantic HTML elements such as:
+					- <h2> or <h3> for section headings
+					- <p> for paragraphs
+					- <ul> and <li> for lists
+					- Keep the tone conversational, professional, and informative.
+					- Organize answers clearly with headings and lists when appropriate.
+					- Do NOT include markdown or code blocks.
+					- Only return the HTML content that should be rendered in the chat.
+
+					Context:
+					${contextPrompt}
+					`,
 		};
 
 		const completion = await openai.chat.completions.create({
