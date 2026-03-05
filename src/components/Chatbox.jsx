@@ -29,7 +29,12 @@ export default function Chatbox() {
 		setIsLoading(true);
 
 		try {
-			const response = await fetch(`${import.meta.env.VITE_API_URL}/api/chat`, {
+			const apiUrl =
+				window.location.hostname === "localhost"
+					? "http://localhost:5000"
+					: import.meta.env.VITE_API_URL;
+
+			const response = await fetch(`${apiUrl}/api/chat`, {
 				method: "POST",
 				headers: { "Content-Type": "application/json" },
 				body: JSON.stringify({ messages: updatedMessages }),
@@ -95,7 +100,14 @@ export default function Chatbox() {
 										: "mr-auto bg-gray-100 text-gray-900"
 								}`}
 							>
-								{msg.content}
+								{msg.role === "assistant" ? (
+									<div
+										className="text-sm leading-relaxed space-y-2"
+										dangerouslySetInnerHTML={{ __html: msg.content }}
+									/>
+								) : (
+									msg.content
+								)}{" "}
 							</div>
 						))}
 
