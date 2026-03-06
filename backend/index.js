@@ -37,6 +37,8 @@ async function findRelevantContext(query, limit = 5) {
 
 		const queryEmbedding = embeddingResponse.data[0].embedding;
 
+		console.log("🔍 Searching for:", query); // ADD THIS
+
 		const { data, error } = await supabase.rpc("match_embeddings", {
 			query_embedding: queryEmbedding,
 			match_threshold: 0.5,
@@ -44,9 +46,12 @@ async function findRelevantContext(query, limit = 5) {
 		});
 
 		if (error) {
-			console.error("Supabase RPC error:", error);
+			console.error("❌ Supabase RPC error:", error);
 			return [];
 		}
+
+		console.log("✅ Found contexts:", data?.length || 0); // ADD THIS
+		console.log("📝 Context preview:", data?.slice(0, 2)); // ADD THIS
 
 		return data.map((row) => row.content);
 	} catch (error) {
@@ -80,20 +85,24 @@ app.post("/api/chat", async (req, res) => {
 			content: `
 You are a helpful AI assistant representing Ryan Rodriguez, a Frontend Developer.
 
-Answer questions about Ryan's skills, projects, and experience using the provided context.
+Answer questions about skills, projects, and experience using ONLY the provided context.
 
 Formatting rules:
-- Only return **plain, compact HTML**.
-- Use:
-- <strong> for emphasis on key skills, technologies, or concepts.
-- Avoid headings (<h1>, <h2>, <h3>, <p>, <li>) entirely.
-- Keep responses concise and suitable for chat bubbles.
-- Keep paragraphs very short (1-2 sentences max).
-- Only return HTML content that should be rendered in the chat.
+- Return HTML only.
+- Use <strong> for project titles and key skills.
+- Keep responses concise for chat bubbles.
+- Do NOT use headings (<h1>, <h2>, etc.) or <ul>/<li>.
+
+Project rules:
+- Always start with the project title as listed in the context, wrapped in <strong> tags.
+- Then provide a short description of the project.
+- Include links if present.
+- Do NOT invent project titles or paraphrase them.
+- If multiple projects match, list each with title in <strong>.
 
 Context:
 ${contextPrompt}
-`,
+  `,
 		};
 
 		const completion = await openai.chat.completions.create({

@@ -17,14 +17,24 @@ const supabase = createClient(
 
 function createPortfolioChunks() {
 	return portfolioData.map((project) => {
-		const chunk = `Project: ${project.title}. Description: ${project.description}. Link: ${project.link ? `Link: ${project.link}` : ""} ${project.gitLink ? `GitHub: ${project.gitLink}` : ""} `;
+		// Build natural language description
+		let content = `Ryan built ${project.title}, which is ${project.description}`;
+
+		// Add links naturally if they exist
+		if (project.link) {
+			content += ` You can view it at ${project.link}.`;
+		}
+		if (project.git) {
+			content += ` The source code is available at ${project.git}.`;
+		}
+
 		return {
-			content: chunk,
+			content: content,
 			metadata: {
 				type: "project",
 				title: project.title,
 				link: project.link || null,
-				gitLink: project.gitLink || null,
+				gitLink: project.git || null,
 			},
 		};
 	});
